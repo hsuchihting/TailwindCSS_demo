@@ -5,13 +5,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>message button</title>
     <link rel="stylesheet" href="dist/output.css" />
+    <title>Transform Card</title>
 </head>
 
-<body class="bg-gray-200">
-    <!-- <div class="w-full"> -->
-    <div class="w-full mt-8">
+<body class=" bg-gray-200">
+    <div class="w-full p-8">
         <ul class="flex justify-center items-center">
             <li>
                 <a class="btn btn-focus" href="index.html">回首頁</a>
@@ -27,18 +26,16 @@
             </li>
         </ul>
     </div>
-    <div class="w-[800px] mx-auto">
-        <h1 class="block text-3xl font-bold py-8">寫一個留言版型</h1>
-        <div class="w-full flex justify-center items-center">
-            <img class="w-14 h-14 mr-4 rounded-full"
-                src=" https://picsum.photos/300/300?pepple=10" alt="" />
-            <input class="input input-focus " placeholder="請留言" />
-            <button class="btn btn-focus">
-                發布
-            </button>
-        </div>
+
+
+
+    <div
+        class="h-[240px] w-[160px] relative transform-style-3d duration-300 overflow-hidden mx-auto">
+        <div class="card touch"></div>
+        <div class="card transform-rotateY-180"></div>
     </div>
-    <!-- </div> -->
+
+
 </body>
 
 </html>
